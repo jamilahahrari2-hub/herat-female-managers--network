@@ -1,0 +1,77 @@
+.contact-form {
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-image {
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.activity-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.activity-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #ede7f6;
+    color: #333;
+}
+h2 {
+    background-image: linear-gradient(to right, #6a1b9a, #ab47bc);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #ab47bc, #ce93d8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-image {
+        width: 95%;
+    }
+}
