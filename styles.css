@@ -74,5 +74,12 @@ h3 {
     .main-image {
         width: 95%;
     }
-   
+.content-image {
+    width: 60%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
 
