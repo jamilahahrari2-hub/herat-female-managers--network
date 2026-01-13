@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 /* =====================
    Color Variables
 ===================== */
@@ -216,4 +219,53 @@ nav {
     margin-top: 15px;
     font-size: 0.9em;
     opacity: 0.85;
+
+}
+@media (max-width: 768px) {
+
+    /* منو */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* تصویر اصلی */
+    .main-image {
+        width: 95%;
+    }
+
+    /* سکشن‌ها */
+    main {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    /* Activities */
+    .activities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-card img {
+        width: 90%;
+        max-width: 260px;
+    }
+
+    /* About image */
+    .content-image,
+    .about-image {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    /* فرم تماس */
+    .contact-form {
+        width: 100%;
+        padding: 15px;
+    }
 }
